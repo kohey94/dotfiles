@@ -24,3 +24,7 @@ set virtualedit+=block "文字のないところに移動できる(よくわか�
 set whichwrap=b,s,h,l,<,>,[,],~ "カーソル自由に動かせる
 set backspace=indent,eol,start "backspaceで削除できる
 set title "タイトル(左上)
+inoremap jj <Esc>
+set cursorline "横の線
+set cursorcolumn "縦の線
+set visualbell "beep音の代わりに画面チカチカする
