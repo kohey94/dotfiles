@@ -15,9 +15,9 @@ set number "行番号を表示する(逆はnonumber)
 set showmatch "括弧入力時に対応する括弧を強調する
 syntax on "構文ごとに色分け表示する(逆はsyntax off)
 set wrap "ウィンドウ幅で行を折り返す(逆はnowrap)
-set tabstop=2 "タブは4つ
+set tabstop=2 "タブは2つ
 set expandtab "タブを空白に置き換える
-set shiftwidth=2 "自動インデントの数4つ
+set shiftwidth=2 "自動インデントの数2つ
 set smartindent "改行時に入力された行の末尾に合わせて次の行のインデントを増減させる
 set autoindent "改行時に前の行のインデントを継続する
 set virtualedit+=block "文字のないところに移動できる(よくわからん)
