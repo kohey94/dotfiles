@@ -4,8 +4,8 @@ set fileencodings=iso-2022-jp,sjis,utf-8 "ファイルエンコードを指定�
 set fileformats=unix,dos "自動認識させる改行コードを指定する
 set background=dark
 colorscheme hybrid "hybridのカラースキーム
-set backup "バックアップを取る(とらないときはnobackup)
-set backupdir=~/backup "バックアップとるディレクトリを指定する
+set nobackup "バックアップを取る(とらないときはnobackup)
+"set backupdir=~/backup "バックアップとるディレクトリを指定する
 set history=50 "検索履歴を50個残す
 set ignorecase "検索時に大文字小文字を区別しない
 set smartcase "検索語に大文字を混ぜると検索時に大文字を区別する
