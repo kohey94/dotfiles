@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 cp ~/dotfiles/.vimrc ~/
 git clone https://github.com/w0ng/vim-hybrid
