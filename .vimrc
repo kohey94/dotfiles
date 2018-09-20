@@ -1,3 +1,9 @@
+"vim-plugでプラグイン管理
+call plug#begin('~/.vim/plugged')
+Plug 'scrooloose/nerdtree'
+Plug 'mattn/emmet-vim'
+call plug#end()
+
 set nocompatible "vimの独自拡張機能を使う(viとの互換性を取らない)
 set encoding=utf-8 "文字コードを指定する
 set fileencodings=iso-2022-jp,sjis,utf-8 "ファイルエンコードを指定する
