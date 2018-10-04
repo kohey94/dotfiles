@@ -34,8 +34,12 @@ inoremap jj <Esc>
 set cursorline "横の線
 set cursorcolumn "縦の線
 set visualbell "beep音の代わりに画面チカチカする
+
 "インサートモード時にカーソル移動できるようにする
 inoremap <C-j> <Down>
 inoremap <C-k> <Up>
 inoremap <C-h> <Left>
 inoremap <C-l> <Right>
+
+"Space+.でvimrc開く
+nnoremap <Space>. : <C-u>tabedit $MYVIMRC<CR>
